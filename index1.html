@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃筱嵐 | 澎湖打工換宿履歷</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-stone-800 antialiased selection:bg-cyan-500 selection:text-white">
+
+    <!-- ========================================== -->
+    <!-- 1. 頂部視覺區 (Hero) -->
+    <!-- ========================================== -->
+    <header class="relative text-white py-16 px-6 text-center overflow-hidden bg-cover bg-center shadow-md" 
+            style="background-image: url('images/photo5.jpg');">
+        <!-- 質感深色遮罩 -->
+        <div class="absolute inset-0 bg-black/40"></div>
+        
+        <div class="relative z-10 max-w-3xl mx-auto flex flex-col items-center justify-center space-y-4">
+            <span class="bg-amber-400 text-slate-950 text-xs font-bold tracking-widest px-3.5 py-1 rounded-full uppercase shadow-xs">
+                打工換宿應徵 🌊
+            </span>
+            <h1 class="text-3xl md:text-4xl font-bold tracking-wide text-white drop-shadow-lg mt-1">
+                嗨！我是黃筱嵐 👋
+            </h1>
+            <p class="text-sm md:text-base text-slate-100/90 font-normal tracking-wider max-w-xl mx-auto drop-shadow-md">
+                希望有機會能加入你們！
+            </p>
+        </div>
+    </header>
+
+
+    <!-- 主要內容區 -->
+    <main class="max-w-4xl mx-auto px-4 py-12 space-y-12">
+
+        <!-- ========================================== -->
+        <!-- 2. 個人基本資料卡片 (已修正字體重疊問題) -->
+        <!-- ========================================== -->
+        <section class="bg-white p-6 md:p-8 rounded-3xl shadow-xs border border-slate-100 grid md:grid-cols-12 gap-8 items-center">
+            <!-- 左側文字 -->
+            <div class="md:col-span-7 space-y-4 order-2 md:order-1 w-full">
+                <div class="flex items-center space-x-2.5">
+                    <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                    <h2 class="text-xl font-bold text-slate-900 tracking-wide">個人資料</h2>
+                </div>
+                <!-- 修正點：移除固定寬度 w-28，改用 flex 佈局自動撐開，絕不重疊 -->
+                <ul class="space-y-3.5 text-sm md:text-base text-stone-600 font-medium tracking-wide">
+                    <li class="flex items-baseline">
+                        <span class="text-stone-400 flex-shrink-0 mr-2">• 姓名：</span>
+                        <span class="font-bold text-stone-900">黃筱嵐</span>
+                    </li>
+                    <li class="flex items-baseline">
+                        <span class="text-stone-400 flex-shrink-0 mr-2">• 出生年月日：</span>
+                        <span class="text-stone-800">2006 年 7 月 9 日（今年 20 歲）</span>
+                    </li>
+                    <li class="flex items-baseline">
+                        <span class="text-stone-400 flex-shrink-0 mr-2">• 聯絡電話：</span>
+                        <span class="tracking-widest text-stone-800">0970-673-971</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- 右側圓形大頭照 -->
+            <div class="md:col-span-5 flex flex-col items-center order-1 md:order-2">
+                <div class="w-40 h-40 md:w-44 md:h-44 rounded-full overflow-hidden shadow-md ring-4 ring-slate-100 shrink-0">
+                    <img src="images/avatar.jpg" alt="黃筱嵐" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 3. 自我介紹 卡片 -->
+        <!-- ========================================== -->
+        <section class="bg-white p-6 md:p-10 rounded-3xl shadow-xs border border-slate-100 space-y-4 transition duration-300 hover:shadow-md">
+            <div class="flex items-center space-x-2.5">
+                <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                <h2 class="text-xl md:text-2xl font-bold text-slate-900 tracking-wide">自我介紹</h2>
+            </div>
+            <div class="space-y-4 text-stone-600 text-sm md:text-base leading-relaxed tracking-wide">
+                <p>您好～我是筱嵐，今年 20 歲來自台南。</p>
+                <p>
+                    平常喜歡運動、旅遊和接觸大自然，很享受待在海邊放空，或和朋友一起探索新地方。個性開朗、好相處，喜歡認識不同的人，也很期待透過換宿去體驗不一樣的生活方式。已有機車駕照且有騎乘經驗，生活自理能力佳，做事細心，對環境整潔也相當重視。
+                </p>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 4. 換宿動機 卡片 -->
+        <!-- ========================================== -->
+        <section class="bg-gradient-to-br from-cyan-50/40 to-emerald-50/20 p-6 md:p-10 rounded-3xl border border-cyan-100/40 space-y-4 shadow-2xs">
+            <div class="flex items-center space-x-2.5">
+                <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                <h2 class="text-xl md:text-2xl font-bold text-slate-900 tracking-wide">換宿動機</h2>
+            </div>
+            <div class="text-stone-600 leading-relaxed text-sm md:text-base tracking-wide">
+                <p>
+                    一直很想體驗離島生活，很喜歡大海和戶外活動。想透過打工換宿深度體驗當地生活。離島對我來說一直是很吸引人的地方，希望能放慢步調感受島上的生活節奏，也很期待透過換宿認識來自不同地方的朋友，互相交流。閒暇時希望可以和當地居民或其他小幫手一起到海邊游泳、探索澎湖。
+                </p>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 5. 打工經驗 卡片 -->
+        <!-- ========================================== -->
+        <section class="bg-white p-6 md:p-10 rounded-3xl shadow-xs border border-slate-100 space-y-4 transition duration-300 hover:shadow-md">
+            <div class="flex items-center space-x-2.5">
+                <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                <h2 class="text-xl md:text-2xl font-bold text-slate-900 tracking-wide">打工經驗</h2>
+            </div>
+            <div class="space-y-6 text-stone-600 text-sm md:text-base leading-relaxed tracking-wide">
+                <div class="bg-slate-50/80 p-5 rounded-2xl border border-slate-100">
+                    <p><strong class="text-slate-900 text-base block font-bold mb-1">民宿打工換宿：</strong>之前在墾丁做過房務和環境整理。有過實際經驗，熟悉整理房務的流程，做事也算細心，能維持好環境的整潔。加上體驗過換宿，習慣團體生活，跟其他小幫手都能處得很好。</p>
+                </div>
+                <div class="bg-slate-50/80 p-5 rounded-2xl border border-slate-100">
+                    <p><strong class="text-slate-900 text-base block font-bold mb-1">學校辦公室工讀（處室助理）：</strong>平常在學校辦公室打工，第一線會遇到各種不同的人來問問題，所以滿擅長應對進退和溝通的。老師們交代的各項雜事也能準確、負責任地做好。</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 6. 專長與個人特質 卡片 -->
+        <!-- ========================================== -->
+        <section class="bg-white p-6 md:p-10 rounded-3xl shadow-xs border border-slate-100 space-y-4">
+            <div class="flex items-center space-x-2.5">
+                <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                <h2 class="text-xl md:text-2xl font-bold text-slate-900 tracking-wide">專長與個人特質</h2>
+            </div>
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-y-3.5 gap-x-4 text-stone-600 text-sm md:text-base tracking-wide font-medium pl-2">
+                <li class="flex items-center gap-2.5"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> 有換宿經驗</li>
+                <li class="flex items-center gap-2.5"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> 喜歡運動</li>
+                <li class="flex items-center gap-2.5"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> 會扯鈴</li>
+                <li class="flex items-center gap-2.5"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> 文書處理與電腦操作</li>
+                <li class="flex items-center gap-2.5"><span class="w-1.5 h-1.5 bg-cyan-500 rounded-full"></span> 好相處，稍微會打麻將~</li>
+            </ul>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 7. 期望換宿時間 卡片 -->
+        <!-- ========================================== -->
+        <section class="bg-white p-6 md:p-10 rounded-3xl shadow-xs border border-slate-100 space-y-4">
+            <div class="flex items-center space-x-2.5">
+                <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                <h2 class="text-xl md:text-2xl font-bold text-slate-900 tracking-wide">期望換宿時間</h2>
+            </div>
+            <div class="text-stone-600 text-sm md:text-base leading-relaxed tracking-wide space-y-2 pl-2">
+                <p class="font-bold text-stone-900 text-base md:text-lg">8/10～8/27。時間可彈性配合安排。</p>
+                <p class="text-stone-400 text-xs md:text-sm italic tracking-wide">（因 8/28 家中有重要活動，需提前返家）</p>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 8. 個人生活照片牆 -->
+        <!-- ========================================== -->
+        <section class="space-y-5 pt-4">
+            <div class="flex items-center space-x-2.5">
+                <span class="h-6 w-1 bg-cyan-500 rounded-full"></span>
+                <h2 class="text-xl md:text-2xl font-bold text-slate-900 tracking-wide">個人生活照</h2>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
+                <div class="aspect-square bg-stone-50 rounded-2xl overflow-hidden border border-slate-200/60 shadow-2xs">
+                    <img src="images/photo1.jpg" alt="生活照1" class="w-full h-full object-cover hover:opacity-90 transition duration-300">
+                </div>
+                <div class="aspect-square bg-stone-50 rounded-2xl overflow-hidden border border-slate-200/60 shadow-2xs">
+                    <img src="images/photo2.jpg" alt="生活照2" class="w-full h-full object-cover hover:opacity-90 transition duration-300">
+                </div>
+                <div class="aspect-square bg-stone-50 rounded-2xl overflow-hidden border border-slate-200/60 shadow-2xs">
+                    <img src="images/photo3.jpg" alt="生活照3" class="w-full h-full object-cover hover:opacity-90 transition duration-300">
+                </div>
+                <div class="aspect-square bg-stone-50 rounded-2xl overflow-hidden border border-slate-200/60 shadow-2xs">
+                    <img src="images/photo6.jpg" alt="生活照6" class="w-full h-full object-cover hover:opacity-90 transition duration-300">
+                </div>
+                <div class="aspect-square bg-stone-50 rounded-2xl overflow-hidden border border-slate-200/60 shadow-2xs">
+                    <img src="images/photo7.jpg" alt="生活照7" class="w-full h-full object-cover hover:opacity-90 transition duration-300">
+                </div>
+                <div class="aspect-square bg-stone-50 rounded-2xl overflow-hidden border border-slate-200/60 shadow-2xs">
+                    <img src="images/photo8.png" alt="生活照8" class="w-full h-full object-cover hover:opacity-90 transition duration-300">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="bg-slate-950 text-slate-400 py-12 text-center text-xs space-y-1.5 border-t border-slate-900">
+        <p class="tracking-wide">謝謝您花時間閱讀我的換宿履歷！期待能有機會加入你們 ✨</p>
+        <p class="text-slate-600">&copy; 2026 黃筱嵐. All Yourself Project.</p>
+    </footer>
+
+</body>
+</html>
